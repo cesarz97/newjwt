@@ -28,8 +28,8 @@ class ApplicationController < ActionController::API
 	def authorize
 		render json: { message: 'you have to login.' }, status: :unauthorized unless
 		authorized_user 
-			
-		end
+			end
+
 
 end
 
